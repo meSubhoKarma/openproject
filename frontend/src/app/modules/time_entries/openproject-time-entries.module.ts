@@ -34,6 +34,7 @@ import {TimeEntryEditModal} from "core-app/modules/time_entries/edit/edit.modal"
 import {TimeEntryFormComponent} from "core-app/modules/time_entries/form/form.component";
 import {HalResourceEditingService} from "core-app/modules/fields/edit/services/hal-resource-editing.service";
 import {TimeEntryEditService} from "core-app/modules/time_entries/edit/edit.service";
+import {TriggerEditEntryComponent} from "core-app/modules/time_entries/edit/trigger-edit-entry.component";
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import {TimeEntryEditService} from "core-app/modules/time_entries/edit/edit.serv
   declarations: [
     TimeEntryEditModal,
     TimeEntryCreateModal,
-    TimeEntryFormComponent
+    TimeEntryFormComponent,
+    TriggerEditEntryComponent
   ]
 })
 export class OpenprojectTimeEntriesModule {
